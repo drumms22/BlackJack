@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <script>
+
+   </script>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Beat the Dealer</title>
+   <script type="text/javascript" src="scripts/cards_1.js"></script>
+   <link rel="stylesheet"  href="styles/style.css" />
+
+
+<style>
+
+
+
+</style>
+
+</head>
+
+<body id="body">
+
+	<div id="top">
+		<header><h1>Beat the dealer!</h1></header>
+		<button onclick="next()">Play!</button>
+
+	</div>
+
+	<div id="content" >
+
+	  <div id="top-ul">
+	  <div class="player-scores">
+	  <h2>Your hand</h2>
+	  <h3>Point Total: <span id="player-total">0</span></h3>
+	  <h3>Win Total: <span id="player-win-total">0</span></h3>
+	</div>
+	  <ul id="playerCards" class="card-area">
+
+	  </ul>
+
+
+	</div>
+
+	<div id="mid-content">
+		<div id="top-message"></div>
+		<div id="popup"></div>
+		<p id="hitcard-caption">&nbsp;</p>
+		<p id="hitCard"><img src="images/card.jpg" alt="Smiley face" class="mid-cards" id="play"  style="display: block;margin: 0 auto;"></p>
+
+		<p id="stay-btn" class="buttons"></p>
+	</div>
+
+	<div id="bottom-ul">
+	    <div class="player-scores">
+	    <h2>Dealer's hand</h2>
+		<h3>Total: <span id="dealer-total">0</span></h3>
+		<h3>Win Total: <span id="dealer-win-total">0</span></h3>
+	</div>
+	  <ul id="dealerCards" class="card-area">
+
+		</ul>
+
+
+		<!--
+		audio for easy listening
+		<audio controls loop autoplay="autoplay" id="audioFile" src="01 - Pachelbel's Canon In D Major (piano) Cannon In D, Kanon In.mp3" type="audio/mp3">
+
+
+		</audio>-->
+	  </div>
+
+	</div>
+
+
+</body>
+</html>
